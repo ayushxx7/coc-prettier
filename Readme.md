@@ -29,7 +29,7 @@ vmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
 ```
 
-Then your can `<leader>f` for range format.
+Then you can `<leader>f` for range format.
 
 Prettier range format only support languageId including: `javascript`,
 `javascriptreact`, `typescript`, `typescriptreact`, `json` and `graphql`.
@@ -48,11 +48,11 @@ Add:
 
 to setup the languages which you want to format on save.
 
-**Note:** prettier extension have lower priority, if the document have other
+**Note:** prettier extension has lower priority, if the document have other
 registered document format provider, prettier would not work.
 
-To check the format is done by prettier, check out the output message after
-format, which should contains `Formatted by prettier`.
+To check whether the formatting is done by prettier, check out the output message after
+format, which should contain `Formatted by prettier`.
 
 To make prettier do the format, use command `:CocCommand prettier.formatFile`
 
